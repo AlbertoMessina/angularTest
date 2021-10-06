@@ -1,0 +1,9 @@
+[
+    {"id": 1 , "name" : "Ortofrutta Pino", "address":"via degli uffizi"},
+    {"id": 2 , "name" : "Frutta e verdura", "address":"via dei generali"},
+    {"id": 3 , "name" : "KM 0 store", "address":"via dei cavalli"},
+    {"id": 4 , "name" : "Il giardino del tuo orto", "address":"via magnatill"},
+    {"id": 5 , "name" : "Coltiva sotto case", "address":"via gioconda"},
+    {"id": 6 , "name" : "Credere per crescere", "address":"via grande capo "} 
+    
+]

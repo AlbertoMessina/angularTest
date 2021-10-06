@@ -1,0 +1,9 @@
+@import url("../sharedElement/sharedCss.css");
+.highlight-card:hover {
+    background-color: rgb(189, 247, 247);
+    box-shadow : 5px 10px #c5e3ffa2;
+}
+
+.is-selected{
+    background-color: #f5cc95;
+}

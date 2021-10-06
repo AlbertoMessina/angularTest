@@ -1,0 +1,17 @@
+<h2 class="text-center">Fruit list</h2>
+<div *ngIf="fruits != '' ; then thenBlock ; else elseBlock"></div>
+<ng-template #thenBlock>
+    <div class="w-75 m-auto d-flex flex-wrap justify-content-center">
+        <div *ngFor="let fruit of fruits ">
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="card-text"> id : {{fruit.id}} name : {{fruit.name}} stock : {{fruit.stock}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #elseBlock>
+    <p>Empty fruit list</p>
+</ng-template>

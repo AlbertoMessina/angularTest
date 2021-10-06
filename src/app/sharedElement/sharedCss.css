@@ -1,0 +1,18 @@
+.greengrocer-card{
+    height:auto;
+    width: 18rem;
+    margin: 1rem;
+}
+
+.greengrocer-card .btn-container{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    height: auto;
+    padding-top: 0.8rem;
+
+}
+
+.my-form-group{
+    margin-top: 0.8rem;
+}
